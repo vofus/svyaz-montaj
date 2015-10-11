@@ -23,4 +23,10 @@ p {
 .toggle_menu {
   background-color: #222; }
 
+.top_menu a:hover {
+  color: #FF6347;
+  background-color: rgba(255, 255, 255, 0.1); }
+.top_menu a {
+  letter-spacing: 5px; }
+
 /*# sourceMappingURL=tomato.css.map */

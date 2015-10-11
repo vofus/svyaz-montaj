@@ -10,8 +10,14 @@ $(document).ready(function() {
 	// 	heightDetect();
 	// });
 	
-	$(".sandwich, .menu_item").click(function() {
+	$(".toggle_menu, .menu_item").click(function() {
 		$(".sandwich").toggleClass("active");
+
+		if ($(".top_menu").is(":visible")) {
+			$(".top_menu").fadeOut(600);
+		} else {
+			$(".top_menu").fadeIn(600);
+		}
 	});
 });
 
