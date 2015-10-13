@@ -29,4 +29,12 @@ p {
 .top_menu a {
   letter-spacing: 5px; }
 
+span.round {
+  border-color: #FF6347; }
+
+span.arrow_left,
+span.arrow_middle,
+span.arrow_right {
+  background-color: #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */
