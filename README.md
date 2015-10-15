@@ -1,7 +1,7 @@
 Макет сайта:
 ============
-> wireframe.cc/3phP0d
+> https://wireframe.cc/3phP0d
 
 Адрес сайта:
 ============
-> montaj.ssau-961.ru
+> http://montaj.ssau-961.ru
