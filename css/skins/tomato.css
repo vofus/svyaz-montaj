@@ -37,4 +37,8 @@ span.arrow_middle,
 span.arrow_right {
   background-color: #FF6347; }
 
+.head_text p {
+  color: #FAFAFA;
+  letter-spacing: 4px; }
+
 /*# sourceMappingURL=tomato.css.map */
