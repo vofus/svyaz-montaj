@@ -166,7 +166,16 @@ $h: 4px
 	height: 100px
 	background-color: transparent
 	border: none	
-	animation-duration: 3s
+	//animation-duration: 3s
+	opacity: 0.8
+	-webkit-transition: all ease-out 0.5s
+	-moz-transition: all ease-out 0.5s
+	-o-transition: all ease-out 0.5s
+	transition: all ease-out 0.5s
+	&:hover
+		opacity: 1
+		transform: scale(1.08, 1.08)
+		//bottom: 7%
 .arrow_in_circle
 	a
 		z-index: 20
