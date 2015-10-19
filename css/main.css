@@ -220,7 +220,7 @@ span.arrow_middle {
 
 .head_wrapper {
   z-index: 10;
-  display: table;
+  display: inline-table;
   position: absolute;
   top: 0;
   left: 0;
