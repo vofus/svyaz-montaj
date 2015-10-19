@@ -88,7 +88,11 @@ section,
       color: #fff;
       display: block;
       padding: 10px 0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
 
 .sandwich {
   z-index: 100;
