@@ -50,6 +50,7 @@ $(document).ready(function() {
 	// });
 
 	$(".top_menu ul li a").click(function() {
+		$("a[href*='#test']").mPageScroll2id();
 		onClickTopMenu();
 	});
 	
