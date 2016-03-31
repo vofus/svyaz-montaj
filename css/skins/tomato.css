@@ -41,4 +41,14 @@ span.arrow_right {
   color: #FAFAFA;
   letter-spacing: 4px; }
 
+#services .content p {
+  color: #FAFAFA;
+  letter-spacing: 4px; }
+#services .content li {
+  color: #FAFAFA;
+  letter-spacing: 2px; }
+#services .content li:hover {
+  background-color: rgba(90, 90, 90, 0.3);
+  border-bottom: 3px solid #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */
