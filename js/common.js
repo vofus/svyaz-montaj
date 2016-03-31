@@ -29,7 +29,12 @@ $(document).ready(function() {
 			$(".top_menu li a").addClass("fadeInUp animated");
 		}
 	}
+
+	function scroll () {
+		
+	}
 	
+
 	$(".arrow_in_circle a").click(function() {
 		var link = $(this).attr("href");
 		var str_link = "a[href*='" + link + "']";
@@ -41,6 +46,12 @@ $(document).ready(function() {
 		var str_link = "a[href*='" + link + "']";
 		$(str_link).mPageScroll2id();
 		onClickTopMenu();
+	});
+
+	// $(".navigation .point").click(scroll());
+
+	$(".navigation .arrow").hover(function () {
+		$(this).fadeToggle( "slow", "linear" );
 	});
 	/*
 	$(document).on('touchstart click', '.top_menu', function(event) {

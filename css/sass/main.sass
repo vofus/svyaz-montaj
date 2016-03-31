@@ -26,7 +26,7 @@ section,
 #services
 	z-index: 10
 	width: 100%
-	background-color: #0c4e6a
+	background-color: #494746
 
 #portfolio
 	z-index: 10
@@ -72,6 +72,66 @@ section,
 	background-color: #fff
 .logo_container
 	float: left
+
+/* ======================================== */
+/* ============== Навигация =============== */
+/* ======================================== */
+$nav_color: #222
+.up-arrow
+	transform: rotate(-45deg)
+.down-arrow
+	transform: rotate(135deg)
+.clear
+	clear: both
+.arrow
+	box-sizing: content-box
+	float: left
+	width: 50px
+	height: 50px
+	border-top: solid 25px $nav_color
+	border-right: solid 25px $nav_color
+	margin: 50px
+	position: relative
+.arrow:after
+	box-sizing: content-box
+	content: ""
+	display: block
+	width: 25px
+	height: 50px
+	background: $nav_color
+	transform: rotate(-135deg)
+	margin-left: 23px
+	margin-top: -10px
+.point
+	box-sizing: content-box
+	display: block
+	position: relative
+	left: 50%
+	width: 50px
+	height: 50px
+	background-color: $nav_color
+	border-radius: 50%
+	margin: 10px
+.active_point,
+.point:hover
+	box-shadow: 0 0 20px rgba(0,0,0,0.5)
+	-webkit-transform: scale(1.08, 1.08)
+	-moz-transform: scale(1.08, 1.08)
+	-o-transform: scale(1.08, 1.08)
+	transform: scale(1.08, 1.08)
+.navigation
+	z-index: 100
+	position: fixed
+	top: 30%
+	right: 40px
+	height: 300px
+	width: 100px
+	-webkit-transform: scale(0.5, 0.5)
+	-moz-transform: scale(0.5, 0.5)
+	-o-transform: scale(0.5, 0.5)
+	transform: scale(0.5, 0.5)
+
+/* ==== Навигация для мобильной версии ==== */
 .toggle_menu
 	z-index: 100
 	position: fixed
